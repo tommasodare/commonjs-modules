@@ -8,6 +8,6 @@ function twoNames(firstName, lastName) {
     };
 }
 
-console.log(twoNames("Tommaso", "Filippo"));
+// console.log(twoNames("Tommaso", "Filippo"));
 
 module.exports = twoNames()
