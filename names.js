@@ -11,4 +11,4 @@ function fullName(firstName, lastName) {
 
 //console.log(fullName("Tommaso", "Da Re"));
 
-module.exports = fullName()
+module.exports = fullName
