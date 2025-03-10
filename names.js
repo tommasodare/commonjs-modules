@@ -3,8 +3,8 @@
 
 function fullName(firstName, lastName) {
     const obj = {
-        firstName: firstName,
-        lastName: lastName
+        firstName: `${firstName}`,
+        lastName: `${lastName}`
     };
     return obj
 }

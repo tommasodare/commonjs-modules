@@ -7,10 +7,11 @@ function personInfo() {
     /* const name = fullName("Mario", "Rossi")
     const myHobbies = hobbies("calcio", "basket", "arrampiacata") */
 
-    return {
+    const obj = {
         fullName: fullName("Tommaso", "Da Re"),
-        hobbies: hobbies(("calcio", "basket", "arrampiacata"))
+        hobbies: hobbies("calcio", "basket", "arrampiacata")
     }
+    return obj
 }
 
 console.log(personInfo());
