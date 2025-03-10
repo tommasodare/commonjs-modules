@@ -4,12 +4,12 @@ const fullName = require("./names.js")
 const hobbies = require("./hobbies.js")
 
 function personInfo() {
-    const name = fullName("Mario", "Rossi")
-    const myHobbies = hobbies("calcio", "basket", "arrampiacata")
+    /* const name = fullName("Mario", "Rossi")
+    const myHobbies = hobbies("calcio", "basket", "arrampiacata") */
 
     return {
-        fullName: name,
-        hobbies: myHobbies
+        fullName: fullName("Tommaso", "Da Re"),
+        hobbies: hobbies(("calcio", "basket", "arrampiacata"))
     }
 }
 

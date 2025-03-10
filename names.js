@@ -2,11 +2,11 @@
 // Esporta la funzione dal file.
 
 function fullName(firstName, lastName) {
-    const oggetto = {
+    const obj = {
         firstName: firstName,
         lastName: lastName
     };
-    return oggetto
+    return obj
 }
 
 //console.log(fullName("Tommaso", "Da Re"));
